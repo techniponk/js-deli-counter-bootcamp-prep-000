@@ -20,6 +20,7 @@ function nowServing (katzDeliLine) {
 function currentLine (katzDeliLine) {
   var greeting = "The line is currently " 
   var greeting2 = "The line is currently: "
+  
   if (katzDeliLine.length === 0) {
     return greeting + "empty."
   } else {

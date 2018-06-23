@@ -21,11 +21,12 @@ function currentLine (katzDeliLine) {
   var greeting = "The line is currently " 
   var greeting2 = "The line is currently: "
   var currentLine = []
+  var first = katzDeliLine[0]
   
   if (katzDeliLine.length === 0) {
     return greeting + "empty."
   } else {
-    for (var i = 0; i < katzDeliLine.length; i++){
+    for (var i = 1; i < katzDeliLine.length; i++){
       currentLine.push((i + 1) + ". " + katzDeliLine[i])
     }
     return greeting2 + currentLine

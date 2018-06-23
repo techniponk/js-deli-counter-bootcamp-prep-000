@@ -24,7 +24,6 @@ function currentLine (katzDeliLine) {
   if (katzDeliLine.length === 0) {
     return greeting + "empty."
   } else {
-    (": ")
     for (var i = 0; i < katzDeliLine.length - 1; i++){
       return greeting2 + (i + 1) + ". " + katzDeliLine[i] + ", "
     }

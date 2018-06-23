@@ -28,6 +28,6 @@ function currentLine (katzDeliLine) {
     for (var i = 0; i < katzDeliLine.length; i++){
       currentLine.push((i + 1) + ". " + katzDeliLine[i] + ", ")
     }
-    return currentLine
+    return greeting2 + currentLine
   }
 }
